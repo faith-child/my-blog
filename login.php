@@ -1,10 +1,7 @@
 <?php 
-    $conn= new mysqli(
-        $host= 'localhost',
-        $user = root,
-        $password = null,
-        $database = 'login');
-
+    require('config/config.php');
+    require('config/db.php');
+    
     
 
 
